@@ -4,8 +4,9 @@ def foo (x, y):
 
 print(foo(1,2))
 
+def fun(a,b):
+  max = a if foo(a,b) else b
+  return max
 
+print (fun(1,2))
 
-# def foo (x, y):
-#     c=x>y
-#     print('true') if x>y else print ('false')
