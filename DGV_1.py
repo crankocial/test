@@ -20,6 +20,7 @@ else:
 
     min=a;
 
-
 print (fun(a,b), '>', min)
+
+
 
